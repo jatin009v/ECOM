@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+:root {
+    --main-bg-color: #00bfff;
+  }
+  
+*{
+    padding: 4;
+    margin: 4;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo img{
+    width: 100px;
+    padding: 0 28px;
+    margin: 4;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blue;
+    font-weight: bold;
+}  
+.search{
+    display: flex;
+    align-items: center;
+}     
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.cart{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.carts{
+    display: flex;
+    overflow: hidden;
+}
+.cart-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.cart-item:hover{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    bottom: 5px;
+}
+.cart h2{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
